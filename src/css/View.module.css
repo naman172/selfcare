@@ -1,0 +1,53 @@
+.view {
+  height: inherit;
+  width: auto;
+  background-image: url("../assets/images/bg.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.wave {
+  transform: scaleX(-1);
+}
+
+.block {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  height: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10%;
+  color: white;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: -1px;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+.contentFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: inherit;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 6%;
+}
